@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: azure;
+}
+.contaier{
+    display: flex;
+    flex-direction: column;
+}
+.haeder{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    align-items: center;
+    background-color: #3DCCC7;
+    margin-top: -3px;
+    margin-bottom: 15px;
+}
+.right h3{
+    color: #FFF;
+}
+.left a{
+    padding: 2.5px 7px;
+    color: #000;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    color: #FFF;
+    padding-bottom: 7px;
+}
+.left a:hover{
+    border: 1.5px solid #FFF;
+    color: #000;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.toptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+.toptop input{
+    width:60%;
+    height: 50px;
+    padding-left: 13px;
+    border: 2px solid aqua;
+    border-radius: 15px;
+}
+.toptop label{
+    width: 60%;
+    margin-bottom: 8px;
+}
+.iner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.downtop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.downtop .left{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    align-items: center;
+}
+.downtop .right{
+    width:15%;
+    align-items: center;
+}
+.right button{
+    width: 150px;
+    height: 50px;
+    margin-left: -40px;
+    background-color: #3DCCC7;
+    border: none;
+    border-radius: 15px;
+    margin-top: 18px;
+}
+.right button:disabled{
+    cursor: not-allowed;
+}
+
+.left input{
+    width:60%;
+    height: 50px;
+    padding-left: 13px;
+    border: 2px solid aqua;
+    border-radius: 15px;
+}
+.left label{
+    width: 60%;
+    margin-bottom: 8px;
+}
+
+.hh{
+    width: 70%;
+    height: 0;
+    margin-left: 15%;
+    border: 1px solid rgb(141, 138, 138);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.up h1{
+    color: #4B7F52;
+    margin-right: 200px;
+}
+.up select{
+    width: 150px;
+    border: 2px solid rgb(141, 138, 138);
+    border-radius: 15px;
+}
+
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    width: 50%;
+    height: 80px;
+    border: 2.5px solid rgb(141, 138, 138);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.le{
+    display: flex;
+    align-items: center;
+    
+}
+.b{
+    color: rgb(141, 138, 138) ;
+}
+.hi{
+    display: flex;
+    flex-direction: column;
+}
+
+.le h2{
+    margin-right: 20px;
+}
+.le button{
+    width: 85px;
+    height: 30px;
+    border: 2px solid rgb(141, 138, 138);
+    border-radius: 13px;
+}
+
+.ri{
+    display: flex;
+}
+.ri .done img{
+
+    width: 25px;
+    height: 25px;
+    
+}
+.ri .done button{
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #C9FFE2;
+    border: 2px solid green;
+}
+.ri .delete img{
+    
+    width: 25px;
+    height: 25;
+    
+}
+.ri .delete button{
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFE6E6;
+    border: 2px solid red;
+}
+
+.footer{
+    margin-top: -25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+    align-items: center;
+    background-color: #3DCCC7;
+}
+
